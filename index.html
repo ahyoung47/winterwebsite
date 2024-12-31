@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Christmas Website</title>
+    <style>
+    	body {
+        	height: 100vh;
+            overflow: hidden;
+            text-align: center;
+            font-family: Tahoma;
+            background: #c4dbf2;
+ 		}
+        
+        button {
+    	width: 300px;
+        height: 50px;
+        background: #98c2ed;
+        animation-name: bluetowhite;
+        animation-duration: 3s;
+        animation-iteration-count: 2;
+    }
+    @keyframes bluetowhite {
+    	from {background: #98c2ed;}
+        to {background: #ffffff;}
+    }
+        
+        img {
+        	width: 300px;
+        }
+        
+        .snowflake {
+        	position: absolute;
+            font-size: 30px;
+            top: -30px;
+            animation: fall linear infinite;
+        }
+        
+        @keyframes fall {
+        	0% {
+            	transform: translateY(0);
+            }
+            100% {
+            	transform: translateY(100vh);
+            }
+        }
+        
+        .snowflake:nth-child(1) {
+        	left: 10%;
+            animation-duration: 7s;
+        }
+        .snowflake:nth-child(2) {
+        	left: 30%;
+            animation-duration: 9s;
+        }
+        .snowflake:nth-child(3) {
+        	left: 50%;
+            animation-duration: 4s;
+        }
+        .snowflake:nth-child(4) {
+        	left: 70%;
+            animation-duration: 6s;
+        }
+        .snowflake:nth-child(5) {
+        	left: 90%;
+            animation-duration: 3s;
+        }
+        
+        img:hover {
+    	-webkit-transform: scaleX(-2);
+        transform: scaleX(-1);
+        }
+        
+    </style>
+</head>
+
+<body>
+	<div class="snowflake">❄️</div>
+    <div class="snowflake">❄️</div>
+    <div class="snowflake">❄️</div>
+    <div class="snowflake">❄️</div>
+    <div class="snowflake">❄️</div>
+
+	<h1>Merry Christmasᵎᵎ ☃︎</h1>
+    <h2>Wishing everyone a Merry Christmas and Happy Holidays!</h2>
+    <h4>Christmas is celebrated on the 25th of December ever year. People decorate their homes with lights, aChristmas tree, and ornaments to celebrate this holiday.</h4>
+    <img src="https://cdn-icons-png.flaticon.com/256/6274/6274238.png">
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/052/364/757/small_2x/christmas-santa-claus-png.png">
+    <br>
+    <br>
+    <a href="https://bucketlistlists.com/winter-bucket-list/">
+    	<button>Activities for the winter!</button>
+        
+    
+</body>
+  
+</html>
